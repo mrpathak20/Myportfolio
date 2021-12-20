@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>payment Form</title>
+</head>
+<BODY bgcolor="green">
+ <center><IMG SRC="logo.png"align =center width =300 height= 300></center>
+<HR size=6color=red width=70%>
+<font size="10"><A HREF ="front.html"><B>Home page</B></A></font>
+
+<form action="">
+<FONT FACE ="Monotype Corsiva" size=20 color=black ><B><center>Payment Form</B></center></Font><BR>
+<HR Size =6 color= black width =70%>
+<h2><center>Contact Information</center></h2>
+<p>Name:* <input type="text" name="name" required></p>
+<fieldset>
+<legend>Gender</legend>
+<p>
+	Male<input type="radio" name="gender" id="male"> female<input type="radio" name="gender" id="female"  required>
+	</p>
+</fieldset>
+<p>Address:<textarea name="address" id="address" cols="100" rows="8"  required></textarea></p>
+<p> Email:- <input type="email" name="email" id="email"  required></p>
+<p> Pincode:<input type="number" name="pincode" id="pincode"  required></p>
+<p>Mobile no;<input type="number" name="Mobile number" id="Mobile number"  required></p>
+<hr>
+<h2> <center>Payment Information</center></h2>
+<p>card type:
+		<select name="card_type" id="card_type" required>
+		<option value="">------select the card type----</option>
+		<option value="visa">Visa</option>
+		<option value="rupay">Rupay</option>
+		<option value="mastercard">Mastercard</option>
+		</select>
+		</p>
+		<p> 
+		Card number:<input type="number" name="card number" id="card number"  required>
+		</p>
+		<p>
+		Expiration Date:<input type="date" name="exp date" id="exp date"  required>
+		</p>
+		<p>CVV <input type="password" name="cvv" id="cvv" id="cvv" required></p>
+		<center><input type="submit" value="Pay Now"></center>
+		</form>
+		</html>
+
+	
